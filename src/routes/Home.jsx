@@ -480,7 +480,7 @@ function Home() {
               </li>
             </ul>
 
-            <div className={`${styles.form} d-flex flex-column grid--gap-050`}>
+            <div className={`${styles.form} d-flex flex-column grid--gap-025`}>
               <input type="text" name="" id="" placeholder={`Note`} onChange={(e) => setNote(e.target.value)} />
               <button onClick={(e) => mintPigMood(e)}>{token ? `Update Mood` : `Mint Mood`}</button>
             </div>
