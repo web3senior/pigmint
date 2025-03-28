@@ -30,7 +30,7 @@ function Home() {
       name: 'Angry',
       images: [
         {
-          width: 1194,
+          width: 1112,
           height: 1112,
           url: 'ipfs://bafkreibjjyryubnmzrcdat4h4f2p6oms2eezw6iq763brj3fsoi5rvoo6e',
           verification: {
@@ -44,7 +44,7 @@ function Home() {
       name: 'Sad',
       images: [
         {
-          width: 1194,
+          width: 1112,
           height: 1112,
           url: 'ipfs://bafkreif37kz424t2lebb22nakb3t6utebh3duv5q7g2ran3kdn3bny4bru',
           verification: {
@@ -58,7 +58,7 @@ function Home() {
       name: 'Sus',
       images: [
         {
-          width: 1194,
+          width: 1112,
           height: 1112,
           url: 'ipfs://bafkreid23wtnfpgooxktlwq3ff7ocgjw3hasjqksdld7msqxbugxwf4yzu',
           verification: {
@@ -72,7 +72,7 @@ function Home() {
       name: 'Buidl',
       images: [
         {
-          width: 1194,
+          width: 1112,
           height: 1112,
           url: 'ipfs://bafkreibz6j226qcxrgwsegdy7yv4qfublqy32bujzk7vhd4ahwom7pksme',
           verification: {
@@ -86,7 +86,7 @@ function Home() {
       name: 'Love',
       images: [
         {
-          width: 1194,
+          width: 1112,
           height: 1112,
           url: 'ipfs://bafkreihbavlqkqd3wlvsxcgpiqnr3rftsperumvorqn7lclzehpjuxfyra',
           verification: {
@@ -100,7 +100,7 @@ function Home() {
       name: 'Rich',
       images: [
         {
-          width: 1194,
+          width: 1112,
           height: 1112,
           url: 'ipfs://bafybeihcguemrbcwpxvj6njhe2b3sxbxrbibfhmde74uiyftl7bewyrora',
           verification: {
