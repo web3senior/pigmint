@@ -205,7 +205,7 @@ function Home() {
       LSP4Metadata: {
         name: 'Pigmint',
         description: `Pigmint is a lightweight, mood-of-the-day mini-app built on the LUKSO blockchain. It lets users express how they feel whether it's Happy, Sad, Angry, Love, etc. by updating a dynamic NFT that reflects their current vibe through a pig-face avatar. It’s simple, social and expressive.`,
-        links: [{ title: 'Mint', url: 'https://universaleverything.io/0x0D5C8B7cC12eD8486E1E0147CC0c3395739F138d' }],
+        links: [{ title: 'Mint', url: 'https://universaleverything.io/0xA2B4eC00e9c55fB7DBbaFCcE6Bc79777C23ca467' }],
         attributes: [
           { key: 'Mood', value: activeMood },
           { key: 'Note', value: note },
