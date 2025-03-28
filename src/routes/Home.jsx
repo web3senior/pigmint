@@ -308,8 +308,10 @@ function Home() {
         setToken(dataContent)
         setActiveMood(dataContent.LSP4Metadata.attributes[0].value)
 
-        document.querySelectorAll(`#moodSelector`).forEach((item) => item.setAttribute('data-active', false))
-        document.querySelector(`.${dataContent.LSP4Metadata.attributes[0].value.toLowerCase()}`).setAttribute('data-active', true)
+        if (auth.walletConnected) {
+          document.querySelectorAll(`#moodSelector`).forEach((item) => item.setAttribute('data-active', false))
+          document.querySelector(`.${dataContent.LSP4Metadata.attributes[0].value.toLowerCase()}`).setAttribute('data-active', true)
+        }
         // add the image to canvas
         // var can = document.getElementById('canvas')
         // var ctx = can.getContext('2d')
@@ -415,7 +417,7 @@ function Home() {
           </>
         )} */}
 
-        {userType === `owner` && (
+        {auth.walletConnected && (
           <>
             <h2>How are you feeling today?</h2>
 
@@ -432,7 +434,7 @@ function Home() {
           </>
         )}
 
-        <div className={`${styles.form} d-f-c flex-column grid--gap-025 mt-40`}>
+        <div className={`${styles.form} d-f-c flex-column grid--gap-025 mt-30`}>
           <div className={`${styles['board']}`}>
             <span>{token && token.LSP4Metadata.attributes[1].value}</span>
             {/* <svg ref={SVG} viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
@@ -447,7 +449,7 @@ function Home() {
           <small>{token && token.LSP4Metadata.attributes[2].value}</small>
         </div>
 
-        {userType === `owner` && (
+        {auth.walletConnected && (
           <>
             <ul className={`${styles.slider} d-flex flex-column`}>
               <li className={`d-flex grid--gap-050`}>
@@ -484,6 +486,7 @@ function Home() {
             </div>
           </>
         )}
+        <small style={{ color: `rgba(0,0,0,.7)` }}>To use Pigmint, please clone it to your grid first!</small>
       </div>
     </>
   )
