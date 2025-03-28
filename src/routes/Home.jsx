@@ -111,7 +111,7 @@ function Home() {
       ],
     },
   ])
-  const [activeMood, setActiveMood] = useState(`Angry`)
+  const [activeMood, setActiveMood] = useState(`Rich`)
   const [note, setNote] = useState(``)
   const [userType, setUserType] = useState()
   const [token, setToken] = useState()
