@@ -49,4 +49,4 @@ Status-driven interactions (e.g., “Ping someone who’s also feeling 🔥”)
 Clickable links to the bio status so you can follow users to view their creations or join events
 
 🌈 Why LUKSO?
-LUKSO’s identity-first blockchain makes all of this possible. Upgradeable NFTs, Universal Profiles and standardized metadata give us the tools to create expressive, evolving digital identities — without compromising ownership or provenance.
+LUKSO’s identity-first blockchain makes all of this possible. Upgradeable NFTs, Universal Profiles and standardized metadata give us the tools to create expressive, evolving digital identities — without compromising ownership or provenance. 
