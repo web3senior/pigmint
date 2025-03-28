@@ -2,6 +2,9 @@
 
 Pigmint is a lightweight, mood-of-the-day mini-app built on the LUKSO blockchain. It lets users express how they feel whether it's Happy, Sad, Angry, Love, etc. by updating a dynamic NFT that reflects their current vibe through a pig-face avatar. It’s simple, social and expressive.
 
+## Demo
+https://youtu.be/IQEH3-uGlzA
+
 ✨ Core Features
 Dynamic Mood NFT: Each user mints a pig-face NFT (FREE to claim, 1 per Universal Profile)
 When they change their mood, the NFT updates on-chain using LUKSO’s LSPs (Upgradeable Metadata), ensuring the current expression and associated image are always up-to-date across the ecosystem.
