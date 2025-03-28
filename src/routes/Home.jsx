@@ -224,7 +224,7 @@ function Home() {
         ],
         backgroundImage: [],
         assets: [],
-        images: mood.filter((item) => item.name.toLowerCase() === activeMood.toLowerCase())[0].images,
+        images: [mood.filter((item) => item.name.toLowerCase() === activeMood.toLowerCase())[0].images],
       },
     })
 
