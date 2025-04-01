@@ -200,7 +200,7 @@ function Home() {
     const contract = new web3.eth.Contract(ABI, import.meta.env.VITE_CONTRACT)
 
     const t = toast.loading(`Waiting for transaction's confirmation`)
-
+//dddd, MMMM Do YYYY , h:mm:ss a
     const metadata = JSON.stringify({
       LSP4Metadata: {
         name: 'Pigmint',
@@ -209,7 +209,7 @@ function Home() {
         attributes: [
           { key: 'Mood', value: activeMood },
           { key: 'Note', value: note },
-          { key: 'At', value: `🕑 ${moment().utc().format('dddd, MMMM Do YYYY, h:mm:ss a')}` },
+          { key: 'At', value: `🕑 ${moment().utc().format('MM/DD/YYYY')}` },
         ],
         icon: [
           {
