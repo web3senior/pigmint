@@ -110,6 +110,20 @@ function Home() {
         },
       ],
     },
+      {
+      name: 'Balaclava',
+      images: [
+        {
+          width: 1112,
+          height: 1112,
+          url: 'ipfs://bafybeiat6pbshmahqyq3hpp3mavxixa7ftq4oohc4byo4d3x5j22roxj4e',
+          verification: {
+            method: 'keccak256(bytes)',
+            data: '0xe4e483adfce9a2202ac40a3cc44cef82e99e00fdf3510992194cbaf328144521',
+          },
+        },
+      ],
+    },
   ])
   const [activeMood, setActiveMood] = useState(`Rich`)
   const [note, setNote] = useState(``)
@@ -368,6 +382,7 @@ function Home() {
 
   useEffect(() => {
     console.clear()
+
     // handleSearchProfile(auth.accounts[0])
     getTokenId(auth.contextAccounts[0])
 
