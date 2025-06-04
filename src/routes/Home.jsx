@@ -116,10 +116,10 @@ function Home() {
         {
           width: 1112,
           height: 1112,
-          url: 'ipfs://bafybeigsqvmkrxdvosanmamgyzvviztcgagzc5ycp62bok73qm26i6ojda',
+          url: 'ipfs://bafybeigwhofmyscbqlkxj4irtuw6mrhdrextqyg3pxfbjjmwm7agpthn2y',
           verification: {
             method: 'keccak256(bytes)',
-            data: '0x5647f14eb1d341a934928f94bc9a24312c265abacbb30c1c965be8aef523e95e',
+            data: '0xf89117edf6da24671561026896f1f29f3700deb53baf826cdb2cb91322efd883',
           },
         },
       ],
