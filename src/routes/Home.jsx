@@ -492,6 +492,7 @@ function Home() {
                 <span id={`moodSelector`} className={`buidl`} />
                 <span id={`moodSelector`} className={`love`} />
                 <span id={`moodSelector`} className={`rich`} />
+                <span id={`moodSelector`} className={`balaclava`} />
               </li>
             </ul>
 
